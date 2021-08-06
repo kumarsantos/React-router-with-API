@@ -1,0 +1,110 @@
+.content_section{
+    display: flex;
+    flex: 1;
+    margin:0px;
+    padding: 0px;
+}
+
+table{
+    flex:1;
+    border:none;
+   
+}
+.header{
+    
+    background-color: #f7f7f7;
+    padding:10px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+tr{
+    padding:10px 20px;
+    display: flex;
+    /* background-color: red; */
+    
+}
+
+
+tr,.header{
+    border-bottom:1px solid rgb(240, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+th{
+    /* background-color: gainsboro; */
+    width: 200px;
+    min-width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:rgb(92, 92, 92);
+    
+}
+th>span{
+    margin-left: 5px;
+    font-size: 10px;
+    color:rgb(14, 56, 241);
+    font-weight: 900;
+}
+td{
+    
+    width: 200px;
+    min-width: 100px;
+    color:rgb(95, 95, 95);
+    font-weight: 500;
+
+}
+
+.content:hover{
+    background-color: #e9f2fa;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+th,td{
+    font-size: 13px;
+}
+
+.active{
+    color:green;
+    font-size: 18px;
+    animation: star 3s  ;
+    
+}
+.active,.inactive{
+    margin-right:5px;
+}
+
+.email_cap{
+    padding: 5px 11px;
+  
+   
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 80px;
+    color:white;
+    margin-right: 5px;
+    font-weight: 600;
+}
+@keyframes star {
+    0%{
+        font-size: 14px;
+        
+    }
+    25%{
+        font-size: 15px;
+        
+    }
+    50%{
+        font-size: 16px;
+    
+    }
+    100%{
+        font-size: 18px;
+        
+    }
+    
+}

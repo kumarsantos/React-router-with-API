@@ -1,0 +1,24 @@
+.pop_up{
+   /* padding: 20px; */
+   position: fixed;
+ top:0;
+ left:0;
+ width: 100vw;
+ height: 100vh;
+ /* transform: translate(-50%,-50%); */
+ background-color: rgba(0, 0, 0,0.2);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.popUp_inner{
+    position: relative;
+    padding:32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+    -webkit-box-shadow: -2px 2px 22px -13px rgba(10, 10, 10, 0.75);
+    -moz-box-shadow: -2px 3px 22px -13px rgba(0,0,0,0.75);
+    box-shadow: -2px 3px 22px -13px rgba(0,0,0,0.75);;
+}
